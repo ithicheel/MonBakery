@@ -180,12 +180,13 @@ img {
 .mainContent .intro h1 {
   padding-bottom: 1.875rem;
   font-size: 1.625em;
-  color: #193829;
-  font-family: 'Libre Caslon Text', Georgia, Times New Roman, serif;
+  color: #961CC0;
+  font-family: 'Open-Sans';
 }
 
 .mainContent .intro p {
   line-height: 1.25em;
+  color: #585858;
 }
 
 .mainContent #textBanner h1 {
@@ -266,13 +267,14 @@ img {
 .img-text h2 {
   padding-bottom: 1.125rem;
   font-size: 1.625em;
-  font-family: '';
-  color: #0d4732;
+  font-family: 'Open-Sans';
+  color: #961CC0;
 }
 
 .img-text p {
   padding-bottom: 1.5rem;
   line-height: 1.25em;
+  color: #585858;
 }
 
 
