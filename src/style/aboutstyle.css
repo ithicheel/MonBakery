@@ -1,0 +1,156 @@
+@import "../../gg/rootStyle.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  width: 100%;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.nav {
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+/* menu ------------- */
+.menu {
+  background: var(--nav-color-gray);
+}
+.menu .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.menu ul li {
+  border-right: 1px solid var(--nav-color-text-gray);
+  padding: 0rem 0.5rem;
+}
+.menu ul li a {
+  color: var(--nav-color-text-gray);
+  font-size: 0.7rem;
+}
+/* main menu --------- */
+
+.main_menu .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main_menu img {
+  width: 310px;
+  height: 90px;
+}
+.main_menu .search_div .search {
+  color: var(--primary-color);
+  font-size: 1rem;
+  padding-left: 0.4rem;
+  width: 450px;
+  height: 2.5rem;
+  border-radius: 7px;
+  border-color: var(--primary-color);
+  background: none;
+}
+.main_menu .search_div {
+  position: relative;
+}
+.main_menu .search_div img {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+}
+.main_menu .search:focus {
+  outline: none;
+}
+.profile img {
+  width: 30px;
+  height: 30px;
+}
+.basket img {
+  width: 35px;
+  height: 35px;
+}
+.main_menu div a {
+  margin-left: 1rem;
+}
+/* Category menu -------- */
+.category_menu ul {
+  display: flex;
+  justify-content: center;
+}
+.category_menu ul li {
+  margin: 1rem;
+}
+.category_menu ul li a {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+/*  showcase ------ */
+.showcase img {
+  width: 100%;
+  height: 80vh;
+}
+/* title */
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+.title div {
+  display: grid;
+  justify-content: center;
+}
+.title h3 {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+/* section */
+
+.shine img {
+  width: 100%;
+  height: 400px;
+}
+/* section 2 */
+
+.onts {
+  display: flex;
+  justify-content: center;
+}
+.onts img {
+  width: 300px;
+  height: 300px;
+  margin: 0 2rem;
+  border-radius: 10px;
+}
+.footer {
+  margin-top: 2rem;
+  width: 100%;
+  height: 300px;
+  background-color: #353558;
+}
+/* Menu page ######################################################################################## */
+.menu_page {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  grid-gap: 2rem;
+  max-width: 1300px;
+  margin: auto;
+}
