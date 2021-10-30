@@ -1,4 +1,5 @@
 @import "../../gg/rootStyle.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 * {
   margin: 0;
@@ -105,8 +106,12 @@ img {
 }
 /*  showcase ------ */
 .showcase img {
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  -webkit-background-size: cover;
   width: 100%;
-  height: 80vh;
+  height: 45vh;
 }
 /* title */
 .title {
@@ -120,7 +125,7 @@ img {
 }
 .title h3 {
   font-size: 1.5rem;
-  color: var(--primary-color);
+  color: 4A221A
 }
 /* section */
 
@@ -146,11 +151,138 @@ img {
   height: 300px;
   background-color: #353558;
 }
-/* Menu page ######################################################################################## */
-.menu_page {
-  display: grid;
-  grid-template-columns: 2.5fr 1fr;
-  grid-gap: 2rem;
-  max-width: 1300px;
+
+
+/*.main-content{
   margin: auto;
+  width: 60%;
+
+} */
+
+/*Main content---------------------------------*/
+
+.mainContent {
+  padding-bottom: 3rem;
+  background-color: #f2f2f2;
 }
+
+/* INTRO --------------------------*/
+.mainContent .container {
+  max-width: 1720px;
+}
+
+.mainContent .intro {
+  max-width: 970px;
+  margin: 1rem auto 3.125rem auto; 
+  text-align: center
+} 
+
+.mainContent .intro h1 {
+  padding-bottom: 1.875rem;
+  font-size: 1.625em;
+  color: #193829;
+  font-family: 'Libre Caslon Text', Georgia, Times New Roman, serif;
+}
+
+.mainContent .intro p {
+  line-height: 1.25em;
+}
+
+.mainContent #textBanner h1 {
+  padding-bottom: 0;
+  font-size: 1.625em;
+  line-height: 1.385em;
+}
+
+
+/* img text --------------------------*/
+
+.img-text {
+  background-color: #fff;
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+}
+
+.mainContent .img-text {
+  background-color: #f8fafa;
+}
+
+.img-text .container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; 
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 1.5em;
+}
+
+.img-text .container.alt {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.img-text .col {
+  width: 50%;
+}
+
+.img-text figure.col {
+  text-align: right;
+}
+
+.img-text .alt figure.col {
+  text-align: left;
+}
+
+.img-text figure.col img {
+  display: inline-block;
+  margin-bottom: 1.875rem;
+}
+
+.img-text div.col {
+  padding-left: 4.5%;
+  padding-right: 18.65%; 
+}
+
+.img-text .alt div.col {
+  text-align: right;
+  padding-right: 4.5%;
+  padding-left: 18.65%; 
+}
+
+.img-text h2 {
+  padding-bottom: 1.125rem;
+  font-size: 1.625em;
+  font-family: '';
+  color: #0d4732;
+}
+
+.img-text p {
+  padding-bottom: 1.5rem;
+  line-height: 1.25em;
+}
+
+
+
+#topBanner h1 {
+    padding-bottom: 0;
+}
+
+.mainContent {
+    padding-bottom: 0;
+}
+
+
